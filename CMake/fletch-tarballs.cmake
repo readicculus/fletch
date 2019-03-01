@@ -586,6 +586,12 @@ set(cppzmq_md5 "f5a2ef3a4d47522fcb261171eb7ecfc4")
 set(cppzmq_dlname "cppzmq-v${cppzmq_version}.zip")
 list(APPEND fletch_external_sources cppzmq)
 
+# thundersvm
+set(thundersvm_version "1.0")
+set(thundersvm_url "https://github.com/readicculus/thundersvm/raw/master/archive/v${thundersvm_version}.tar.gz")
+set(thundersvm_md5 "3abdec254e1da665388624ed83df0711")
+set(thundersvm_dlname "thundersvm-v${thundersvm_version}.tar.gz")
+list(APPEND fletch_external_sources thundersvm)
 #+
 # Iterate through our sources, create local filenames and set up the "ENABLE"
 # options
